@@ -1,13 +1,10 @@
-import { Form,Button,Container,Col,Row } from 'react-bootstrap';
+import { Form,Button,Container,Col } from 'react-bootstrap';
 
 function ReplyForm () {
     return(
-    
-          <Container>            
-              <h1 className="text-left"> Leave a reply </h1>  
-<p  className="text-left">Your email address will not be published. Required fields are marked *</p> 
-          
-
+          <Container className="form-container">            
+              <h1> Leave a reply </h1>  
+              <p>Your email address will not be published. Required fields are marked *</p> 
 
 <Form>
     <Form.Row>
@@ -36,7 +33,7 @@ function ReplyForm () {
     <Form.Check type="checkbox"  className="text-muted float-left" label="Save my name, email, and website in this browser for the next time I comment" />
     </Form.Group>
 
-  <Button variant="primary" type="submit" className="float-left">
+  <Button variant="primary" type="submit" className="button">
     Post Comment
   </Button>
   </Col>

@@ -1,21 +1,49 @@
 @import 'bootstrap/dist/css/bootstrap.css';
 
 .App {
-  text-align: center;
+  margin-left: -150px;
+}
+
+.header{
+  position : absolute;
+  width: 100%;
+  background-color: #fff;
+}
+
+.title{
+   margin-left: -5px;
 }
 
 .image{
-  padding: 20px;
-  margin-top: -15px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-top: -10px;
+  float: left;
+  shape-outside: inset();
 }
 
 .content-container{
-  margin-top: 30px;
+  margin-top: 100px;
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
 }
 
 .content{
-  line-height: 32px;
+  line-height: 30px;
+  word-wrap: break-word;
+  text-align: justify;
 }
 
+.form-container{
+  margin-left: -30px;
+}
+
+.button{
+  margin-top: 15px;
+}
 
 
